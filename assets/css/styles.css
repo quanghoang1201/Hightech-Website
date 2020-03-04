@@ -1,0 +1,175 @@
+body {
+}
+
+.container {
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+}
+
+tbody {
+  border: none;
+}
+
+tr {
+  border: none;
+}
+
+thead {
+  border: none;
+}
+
+.table thead th {
+  border: none;
+}
+
+.table td, .table th {
+  border: none;
+}
+
+.dropdown {
+  position: static;
+}
+
+.dropdown-menu {
+  margin-top: -4px !important;
+  width: 100% !important;
+  border-top: 2px !important;
+  background-color: #202020 !important;
+  border-radius: 0 !important;
+  left: 0;
+  right: 0;
+  z-index: 3000;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: #202020;
+}
+
+.nav-item:hover {
+  background-color: #202020;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.link-lam-nguyen:hover {
+  color: #00f0ff !important;
+}
+
+.link-quang-hoang:hover {
+  color: #cc00ff !important;
+}
+
+.link-minh-ho:hover {
+  color: #33ff00 !important;
+}
+
+.link-huy-nguyen:hover {
+  color: #ff007a !important;
+}
+
+.link-nav:hover {
+  text-decoration: underline;
+}
+
+.author:hover {
+  text-decoration: underline;
+}
+
+.article-right {
+  border-left: 1px;
+}
+
+.vl {
+  border-left: 1px;
+  color: white;
+}
+
+.vl {
+  border-left: solid 1px #ffffff;
+  display: inline-block;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #cc00ff;
+  width: 0%;
+}
+
+.dropdown-menu:hover > .dropdown-menu {
+  display: block;
+}
+
+.main-article-container {
+  border-top: solid 1px #404040;
+  margin-bottom: 8px;
+}
+
+.main-article-container-safe-zone {
+  padding: 8px 0;
+}
+
+.main-article-container-safe-zone {
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+}
+
+.main-article-container-safe-zone_body {
+  flex-grow: 1;
+  padding: 0 8px;
+  width: 200%;
+}
+
+.article-brief {
+  color: #ffffff !important;
+}
+
+.headline-container-safe-zone {
+  padding: 8px 0;
+}
+
+.aside-headline_text {
+  padding-top: 2px;
+}
+
+.aside-headline-container {
+  border-top: solid 1px #404040;
+}
+
+.read-more-btn {
+  border-radius: 0;
+}
+
+.all-sub-nav {
+  border-top: solid 1px #808080;
+}
+
+.article-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+}
+
