@@ -64,20 +64,8 @@ a:link {
   text-decoration: none;
 }
 
-.link-lam-nguyen:hover {
-  color: #00f0ff !important;
-}
-
-.link-quang-hoang:hover {
+.link-hover-decor:hover {
   color: #cc00ff !important;
-}
-
-.link-minh-ho:hover {
-  color: #33ff00 !important;
-}
-
-.link-huy-nguyen:hover {
-  color: #ff007a !important;
 }
 
 .link-nav:hover {
@@ -171,5 +159,42 @@ a:link {
 .article-paragraph {
   font-size: 20px;
   font-weight: 400;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    height: 150px;
+  }
+}
+
+.header-container {
+  height: 150px;
+}
+
+.author {
+  color: #00f0ff;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
