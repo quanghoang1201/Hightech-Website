@@ -235,3 +235,55 @@ a:link {
   }
 }
 
+@media (max-width: 768px) {
+  .container.header-container {
+    height: 100px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 100px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .h1, h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 15px !important;
+  }
+}
+
+.author-headline:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    padding-top: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-hover-decor {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-head {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-head {
+    font-size: 13px !important;
+  }
+}
+
