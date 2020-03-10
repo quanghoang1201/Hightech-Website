@@ -212,7 +212,7 @@ a:link {
 }
 
 @media (max-width: 768px) {
-  .h6, h6 {
+  .article-brief {
     font-size: x-small;
   }
 }
