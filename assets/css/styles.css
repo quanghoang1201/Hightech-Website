@@ -198,3 +198,34 @@ a:link {
   position: absolute;
 }
 
+@media (max-width: 768px) {
+  .article-paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .h4, h4 {
+    font-size: small;
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .h6, h6 {
+    font-size: x-small;
+  }
+}
+
+@media (max-width: 768px) {
+  .author {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .timestamp {
+    font-size: 10px !important;
+  }
+}
+
