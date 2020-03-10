@@ -229,3 +229,9 @@ a:link {
   }
 }
 
+@media (max-width: 768px) {
+  .aside-headline-container {
+    display: none;
+  }
+}
+
