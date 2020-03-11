@@ -414,3 +414,21 @@ a:link {
   }
 }
 
+.container-fluid {
+  padding: 0 !important;
+}
+
+.navbar-collapse {
+}
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+}
+
+#navcol-1 {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
