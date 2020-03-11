@@ -378,3 +378,33 @@ a:link {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .nav-link {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-head {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-head {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    height: 100px !important;
+  }
+}
+

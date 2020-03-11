@@ -61,9 +61,3 @@
 .container-fluid.p-0 {
 }
 
-@media (max-width: 768px) {
-  .nav-link {
-    text-align: center;
-  }
-}
-
