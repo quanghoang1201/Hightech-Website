@@ -370,3 +370,11 @@ a:link {
   }
 }
 
+.link-sub-all {
+  color: #ff0c9e;
+}
+
+.link-sub-all:hover {
+  text-decoration: underline;
+}
+
