@@ -19,13 +19,13 @@
 
 <body style="color: rgb(255,255,255);font-family: 'Helvetica Neue';background-color: rgb(14,14,14);">
     <header style="background-image: url(&quot;assets/img/umberto-jXd2FSvcRr8-unsplash.jpg&quot;);height: 200px;background-size: cover;background-position: 20%;opacity: 1;">
-        <div class="overlay" style="background-color: #000000;opacity: 0.50;height: 200px;width: 100%;"></div>
-        <div class="container" style="height: 200px;">
-            <div class="row" style="height: 200px;">
-                <div class="col" style="width: 760px;max-width: 66.666667%;margin: 0px 190px;">
-                    <div class="text-center" style="height: 200px;">
-                        <a href="index.html">
-                            <h1 style="font-size: 78px;font-weight: bold;padding: 0px;height: 130px;padding-top: 39px;font-family: 'Open Sans Condensed', sans-serif;color: rgb(255,255,255);">HighTech</h1><span style="height: 25px;width: 730px;margin-top: -0;margin-bottom: -0;padding-top: 0px;font-size: 18px;font-weight: 100;color: rgb(255,255,255);">Latest News From The Tech World</span></a>
+        <div class="overlay" style="background-color: #111111;opacity: 0.50;width: 100%;height: 200px;"></div>
+        <div class="container header-container" style="height: 200px;">
+            <div class="row row-head">
+                <div class="col col-head" style="margin-top: 0px;">
+                    <div class="text-center" style="padding-top: 24px;">
+                        <a href="index.html" style="padding-top: 0px;margin-top: 0px;">
+                            <h1 style="font-size: 78px;font-weight: bold;font-family: 'Open Sans Condensed', sans-serif;color: rgb(255,255,255);">HighTech</h1><span class="head" style="width: 730px;font-size: 18px;font-weight: 100;color: rgb(255,255,255);">Latest News From The Tech World</span></a>
                     </div>
                 </div>
             </div>
@@ -155,16 +155,16 @@
                 <div>
                     <div>
                         <ul class="list-inline" style="margin-top: 16px;">
-                            <li class="list-inline-item"><a href="#" style="font-size: 25px;font-family: 'Helvetica Neue';color: rgb(204,0,255);">NewTeach Updates</a></li>
-                            <li class="list-inline-item"><a href="#" style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 16px;font-style: italic;opacity: 0.75;">AI</a></li>
+                            <li class="list-inline-item"><a class="category" href="#" style="font-size: 25px;font-family: 'Helvetica Neue';color: rgb(204,0,255);">NewTeach Updates</a></li>
+                            <li class="list-inline-item"><a class="sub-cat" href="#" style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 16px;font-style: italic;opacity: 0.75;">AI</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h1 style="font-size: 50px;font-family: 'Helvetica Neue';"><strong>New Juul patent application hints at AI-powered vape to help users quit nicotine</strong><br></h1>
+                        <h1 class="article-header" style="font-family: 'Helvetica Neue';"><strong>New Juul patent application hints at AI-powered vape to help users quit nicotine</strong><br></h1>
                     </div>
-                    <p style="font-family: 'Helvetica Neue';font-style: italic;font-size: 20px;font-weight: 300;margin-right: 33.3333%;">The e-cigarette company is facing lawsuits for its marketing to youths</p>
+                    <p class="summary" style="font-family: 'Helvetica Neue';font-style: italic;font-size: 20px;font-weight: 300;margin-right: 33.3333%;">The e-cigarette company is facing lawsuits for its marketing to youths</p>
                     <div style="margin-top: 0px;">
-                        <div><span>By&nbsp;</span><a class="author" href="#" style="color: #00f0ff;">Lam Nguyen</a>
+                        <div class="posted"><span>By&nbsp;</span><a class="author" href="#" style="color: #00f0ff;">Lam Nguyen</a>
                             <div class="vl" style="margin-right: 0px;"><span>&nbsp;Mar 3, 2020</span></div>
                         </div>
                     </div>
@@ -211,16 +211,59 @@
             <h1 style="font-family: 'Open Sans Condensed', sans-serif;font-weight: normal;">READ MORE</h1>
         </div>
         <div class="row">
-            <div class="col">
-                <div><a href="#"><img src="assets/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg" width="350"><p style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 20px;font-weight: bold;">This is a Article Header</p></a></div>
-            </div>
-            <div class="col">
-                <div><a href="#"><img src="assets/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg" width="350"><p style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 20px;font-weight: bold;">This is a Article Header</p></a></div>
-            </div>
-            <div class="col">
-                <div><a href="#"><img src="assets/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg" width="350"><p style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 20px;font-weight: bold;">This is a Article Header</p></a></div>
+            <div class="col-sm-12 col-md-4 read-more">
+                <div class="rm-article"><a href="#"><img class="img-responsive" src="assets/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg" width="350"><p class="sub-head" style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 20px;font-weight: bold;">This is a Article Header</p></a></div>
+                <div
+                    class="main-article-container sub-article">
+                    <div class="main-article-container-safe-zone">
+                        <a style="font-family: 'Helvetica Neue';color: rgb(255,255,255);height: 100%;width: 100%;" href="#">
+                            <div class="main-article-container-safe-zone_image"><img class="img-responsive" src="assets/img/markus-spiske-5gGcn2PRrtc-unsplash.jpg" width="250"></div>
+                        </a>
+                        <div class="main-article-container-safe-zone_body">
+                            <a class="link-hover-decor" href="#" style="color: rgb(255,255,255);">
+                                <h4>Record Growth in Vietnamese<br></h4>
+                                <h6 class="article-brief" style="font-weight: 200;">Marketing Updates<br></h6>
+                            </a>
+                            <p class="timestamp" style="font-weight: 100;font-style: italic;font-size: 12px;">Posted by&nbsp;<a class="author" href="#" style="color: #00f0ff;">Hieu Tran</a><em>&nbsp;on March 3, 2020</em><br></p>
+                        </div>
+                    </div>
             </div>
         </div>
+        <div class="col-sm-12 col-md-4 read-more">
+            <div class="rm-article"><a href="#"><img class="img-responsive" src="assets/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg" width="350"><p style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 20px;font-weight: bold;">This is a Article Header</p></a></div>
+            <div class="main-article-container sub-article">
+                <div class="main-article-container-safe-zone">
+                    <a style="font-family: 'Helvetica Neue';color: rgb(255,255,255);height: 100%;width: 100%;" href="#">
+                        <div class="main-article-container-safe-zone_image"><img class="img-responsive" src="assets/img/ezgif.com-webp-to-jpg.jpg" width="250"></div>
+                    </a>
+                    <div class="main-article-container-safe-zone_body">
+                        <a class="link-hover-decor" href="#" style="color: rgb(255,255,255);">
+                            <h4 style="margin-top: -6px;">Youngest Coder From FPT Software Wins Corporation Wide Coding Contest<br></h4>
+                            <h6 class="article-brief" style="font-weight: 200;">Career Development<br></h6>
+                        </a>
+                        <p class="timestamp" style="font-weight: 100;font-style: italic;font-size: 12px;">Posted by&nbsp;<a class="author" href="#" style="color: #00f0ff;">Quang Hoang</a><em>&nbsp;on March 3, 2020</em><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 read-more">
+            <div class="rm-article"><a href="#"><img class="img-responsive" src="assets/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg" width="350"><p style="color: rgb(255,255,255);font-family: 'Helvetica Neue';font-size: 20px;font-weight: bold;">This is a Article Header</p></a></div>
+            <div class="main-article-container sub-article">
+                <div class="main-article-container-safe-zone">
+                    <a style="font-family: 'Helvetica Neue';color: rgb(255,255,255);height: 100%;width: 100%;" href="#">
+                        <div class="main-article-container-safe-zone_image"><img class="img-responsive" src="assets/img/brady-cook-kysU_IALnTM-unsplash.jpg" width="250"></div>
+                    </a>
+                    <div class="main-article-container-safe-zone_body">
+                        <a class="link-hover-decor" href="#" style="color: rgb(255,255,255);">
+                            <h4 style="margin-top: -6px;">To Self-Drive In The Snow, Look Under The Road<br></h4>
+                            <h6 class="article-brief" style="font-weight: 200;">NewTech Updates</h6>
+                        </a>
+                        <p class="timestamp" style="font-weight: 100;font-style: italic;font-size: 12px;">Posted by&nbsp;<a class="author" href="#" style="color: #00f0ff;">Lam Nguyen</a><em>&nbsp;on March 3, 2020</em><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <div class="footer-basic" style="background-color: rgb(0,0,0);">
         <footer>
@@ -235,19 +278,6 @@
                 <p class="copyright" style="color: rgb(255,255,255);opacity: 0.80;">ICTnews © 2020</p>
         </footer>
     </div>
-    <header style="background-image: url(&quot;assets/img/umberto-jXd2FSvcRr8-unsplash.jpg&quot;);height: 200px;background-size: cover;background-position: 20%;opacity: 1;">
-        <div class="overlay" style="background-color: #111111;opacity: 0.50;width: 100%;height: 200px;"></div>
-        <div class="container header-container" style="height: 200px;">
-            <div class="row" style="height: 200px;">
-                <div class="col" style="margin-top: 0px;">
-                    <div class="text-center" style="height: 200px;padding-top: 24px;">
-                        <a href="index.html" style="padding-top: 0px;margin-top: 0px;">
-                            <h1 style="font-size: 78px;font-weight: bold;font-family: 'Open Sans Condensed', sans-serif;color: rgb(255,255,255);">HighTech</h1><span class="head" style="width: 730px;font-size: 18px;font-weight: 100;color: rgb(255,255,255);">Latest News From The Tech World</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
